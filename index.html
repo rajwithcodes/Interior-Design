@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interior Designer Architect Platform</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+  <!-- Dark Mode Toggle -->
+  <button class="dark-toggle" id="darkModeToggle">🌓</button>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">Interior Designs</div>
+    <div class="nav-menu">
+      <a href="#portfolio">PORTFOLIO</a>
+      <a href="#clients">CLIENTS</a>
+      <a href="#about">ABOUT</a>
+      <a href="#contact">CONTACT</a>
+    </div>
+  </header>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="section" data-aos="fade-up">
+    <h2>Portfolio</h2>
+    <div class="portfolio-gallery">
+      <div class="portfolio-item">
+        <img src="./living.jpg" alt="Modern Living Room" />
+        <p>Modern Living Room</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="./Kitchen.jpg" alt="Luxury Kitchen" />
+        <p>Luxury Kitchen</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="./Bedroom.jpg" alt="Cozy Bedroom" />
+        <p>Cozy Bedroom</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Clients Section -->
+  <section id="clients" class="section" data-aos="fade-up">
+    <h2>Clients</h2>
+    <p>Login to track project progress</p>
+    <form id="clientLoginForm">
+      <input type="email" id="clientEmail" placeholder="Enter your email" required />
+      <input type="password" id="clientPassword" placeholder="Enter your password" required />
+      <button type="submit">Login</button>
+    </form>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section" data-aos="fade-up">
+    <h2>About</h2>
+  
+    <div data-aos="fade-up">
+      <p>
+        Welcome to the Interior Designer Architect platform! Explore beautiful design prototypes and track your project's progress with ease.
+      </p>
+    </div>
+  
+    <!-- Luxury Interior Focus -->
+    <div data-aos="fade-up" data-aos-delay="100">
+      <p>
+        At Interior Designs, we specialize in crafting exquisite luxury interiors that harmonize sophistication with functionality. Every space we design is a reflection of elegance, tailored precisely to fit the unique lifestyle and vision of our clients.
+      </p>
+    </div>
+  
+    <div data-aos="fade-up" data-aos-delay="200">
+      <p>
+        Our design philosophy goes beyond aesthetics — it’s about curating experiences. From high-end materials to custom furnishings and smart spatial planning, we ensure that each detail enhances comfort while radiating opulence.
+      </p>
+    </div>
+  
+    <!-- Modern Minimalist Focus -->
+    <div data-aos="fade-up" data-aos-delay="300">
+      <p>
+        For those who appreciate clean lines and uncluttered beauty, we offer minimalist designs that blend simplicity with purpose. Our team uses neutral tones, organic materials, and open spaces to evoke calm, clarity, and elegance.
+      </p>
+    </div>
+  
+    <div data-aos="fade-up" data-aos-delay="400">
+      <p>
+        Whether it's a sleek urban loft or a cozy apartment, our minimalism celebrates light, space, and intention — allowing your personality and lifestyle to be the centerpiece.
+      </p>
+    </div>
+  
+    <!-- Eco-Friendly + Sustainable Interiors -->
+    <div data-aos="fade-up" data-aos-delay="500">
+      <p>
+        Sustainability is at the core of our values. We believe beautiful interiors should also be responsible. Our eco-conscious designs integrate recycled materials, energy-efficient lighting, and ethically sourced furnishings.
+      </p>
+    </div>
+  
+    <div data-aos="fade-up" data-aos-delay="600">
+      <p>
+        From low-VOC paints to solar-powered features, we bring green innovations to luxury living — because a beautiful home should also be a kind one.
+      </p>
+    </div>
+  
+    <!-- Tech + Platform Highlight -->
+    <div data-aos="fade-up" data-aos-delay="700">
+      <p>
+        What sets us apart is our seamless digital platform. Clients can browse stunning prototypes, track real-time progress, monitor budgets, and collaborate with designers — all from one interactive dashboard.
+      </p>
+    </div>
+  
+    <div data-aos="fade-up" data-aos-delay="800">
+      <p>
+        This platform transforms complex interior projects into a streamlined, enjoyable journey — designed with transparency, ease, and satisfaction in mind.
+      </p>
+    </div>
+  
+    <!-- Mission Statement -->
+    <div data-aos="fade-up" data-aos-delay="900">
+      <p>
+        At Interior Designs, we don’t just decorate spaces — we design experiences. Whether it’s a luxury penthouse, a minimalist retreat, or a sustainable sanctuary, your story deserves to be reflected beautifully.
+      </p>
+    </div>
+  
+    <!-- Animated Counters -->
+    <div class="counters" data-aos="fade-up" data-aos-delay="1000">
+      <div>
+        <h3 class="count" data-count="12">0</h3>
+        <p>Completed Projects</p>
+      </div>
+      <div>
+        <h3 class="count" data-count="8">0</h3>
+        <p>Happy Clients</p>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Contact Section -->
+  <section id="contact" class="section" data-aos="fade-up">
+    <h2>Contact</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Interior Designer Architect Platform</p>
+  </footer>
+
+  <!-- Modal Viewer -->
+  <div id="imageModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImg" />
+  </div>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
