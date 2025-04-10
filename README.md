@@ -52,8 +52,8 @@ The **Interior Designer Architect Platform** is a sleek, responsive **prototype*
 2. Open `index.html` in your browser.
 3. Use the sample login:
    ```
-   Email: client@example.com
-   Password: secure123
+   Email: raj@gmail.com
+   Password: hello123
    ```
 4. You’ll be redirected to the dashboard to preview sample projects.
 
