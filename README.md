@@ -59,4 +59,4 @@ The **Interior Designer Architect Platform** is a sleek, responsive **prototype*
 
 ---
 
-Let me know if you’d like me to export this as a README.md file!
+
